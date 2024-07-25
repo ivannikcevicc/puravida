@@ -123,7 +123,7 @@ const Header = () => {
                 custom={slideDirection} // Pass direction to variants
               >
                 <motion.h2
-                  className="text-[3rem] sm:text-[4rem] mb-4 leading-[3.5rem]"
+                  className="text-[2rem] xs:text-[3rem] sm:text-[4rem] mb-4 leading-[2.5rem] xs:leading-[3.5rem]"
                   variants={textVariants}
                   custom={slideDirection}
                 >
@@ -137,7 +137,7 @@ const Header = () => {
                   {item.text2}
                 </motion.p>
                 <motion.h3
-                  className="text-[3rem] sm:text-[4rem] mb-4 leading-[3.5rem]"
+                  className="text-[2rem] xs:text-[3rem] sm:text-[4rem] mb-4 leading-[2.5rem] xs:leading-[3.5rem]"
                   variants={textVariants}
                   custom={slideDirection}
                 >

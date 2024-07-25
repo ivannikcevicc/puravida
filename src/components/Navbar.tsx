@@ -57,7 +57,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="relative z-50 flex items-center bg-white md:py-8 py-4 px-6 sm:px-10 lg:px-20 shadow-md">
+      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center bg-white md:py-8 py-4 px-6 sm:px-10 lg:px-20 shadow-md">
         <div className="w-[1100px] mx-auto flex sm:justify-between items-center">
           <div className="sm:hidden block mr-4">
             <Hamburger toggled={showNav} toggle={toggleNav} />
