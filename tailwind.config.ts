@@ -13,6 +13,18 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        custom: ["DancingScript", "sans-serif"], // Define a custom font family
+      },
+      fontWeight: {
+        normal: "400",
+        semibold: "600",
+        bold: "700",
+      },
+      fontStyle: {
+        normal: "normal",
+        italic: "italic",
+      },
     },
   },
   plugins: [],
