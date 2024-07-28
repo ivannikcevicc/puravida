@@ -1,8 +1,7 @@
 "use client";
-import React from "react";
+import React from "react"
 import Image from "next/image";
 import AboutImg from "./../../public/about img 2.jpg";
-
 const About = () => {
   return (
     <div className="relative max-w-[1260px] flex flex-col lg:flex-row items-center justify-center mx-auto  p-3 xs:p-6 md:p-12">
@@ -27,7 +26,7 @@ const About = () => {
             To the magical place in Palm Beach{" "}
           </h3>
           <p className="text-md xs:text-lg ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing lit,sed do
+            Lorem ipsum dolor sit amt, consectetur adipiscing lit,sed do
             eiusmod tempor ncididunt ut labore et doloremagna aliqua. Ut enim ad
             minim veniam, quis nostrudexercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -35,9 +34,9 @@ const About = () => {
             llapariatur. Excepteur sint occaecat pidatat non proident, unt in
             culpa qui officialdeserunt mollit anim id est laborum.{" "}
           </p>
-          <button className="relative border-2 mt-4 border-black transition-all duration-300 ease-out hover:border-orange-500 hover:text-white bg-transparent text-black py-3 px-6 overflow-hidden group">
+          <button className="relative border-2 mt-4 border-black transition-all duration-300 ease-out hover:border-amber-500 hover:text-white bg-transparent text-black py-3 px-6 overflow-hidden group">
             <span className="relative z-10">Learn More</span>
-            <span className="absolute inset-0 bg-orange-500 transform opacity-0 group-hover:opacity-100 scale-x-[.8] scale-y-[.9] group-hover:scale-y-100 transition-all duration-[275ms] ease-out group-hover:scale-x-100"></span>
+            <span className="absolute inset-0 bg-amber-500 transform opacity-0 group-hover:opacity-100 scale-x-[.8] scale-y-[.9] group-hover:scale-y-100 transition-all duration-[275ms] ease-out group-hover:scale-x-100"></span>
           </button>
         </div>
       </div>

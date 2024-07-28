@@ -64,15 +64,15 @@ const Navbar = () => {
           </div>
           <div className="uppercase text-xl md:text-2xl flex sm:gap-4 gap-3">
             <FaUmbrellaBeach
-              className="translate-y-[6px] sm:mr-0 mr-2 sm:scale-100 scale-150"
-              color="orange"
+              className="translate-y-[6px] sm:mr-0 mr-2 sm:scale-100 scale-150 text-amber-400"
+             
             />{" "}
-            <span className="border-b border-b-orange-300">Pura Vida</span>
+            <span className="border-b border-b-amber-300">Pura Vida</span>
           </div>
           <ul className="hidden sm:flex">
             {NavLinks.map((link) => (
               <li
-                className="border-b-2 flex px-3 align-center justify-center border-b-transparent hover:border-b-orange-300 transition-all"
+                className="border-b-2 flex px-3 align-center justify-center border-b-transparent hover:border-b-amber-300 transition-all"
                 key={link.label}
               >
                 <Link href={link.href}>{link.label}</Link>
@@ -80,8 +80,8 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="hidden gap-2 sm:flex">
-            <span className="border-b border-b-orange-300">0123456789</span>
-            <FaPhoneAlt color="orange" className="translate-y-[3px]" />
+            <span className="border-b border-b-amber-400">0123456789</span>
+            <FaPhoneAlt className="text-amber-400 translate-y-[3px]" />
           </div>
         </div>
       </nav>
@@ -122,7 +122,7 @@ const Navbar = () => {
               </div>
               <div className="flex gap-2 items-center justify-center mb-4 mt-14">
                 <FaInstagram
-                  className="hover:text-orange-500 transition-colors"
+                  className="hover:text-amber-500 transition-colors"
                   color="orange"
                   size={25}
                 />
@@ -148,7 +148,7 @@ const Navbar = () => {
                     >
                       {link.label}
                     </Link>
-                    <div className="absolute inset-0 bg-orange-400 transform translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300"></div>
+                    <div className="absolute inset-0 bg-amber-400 transform translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300"></div>
                   </motion.li>
                 ))}
               </motion.ul>
