@@ -58,7 +58,8 @@ const Navbar = () => {
   return (
     <>
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center bg-white md:py-8 py-4 px-6 sm:px-10 lg:px-20 shadow-md">
-        <div className="w-[1100px] mx-auto flex sm:justify-between items-center">
+        <div className="w-[1100px] mx-auto flex justify-between items-center">
+          <div className="flex items-center">
           <div className="sm:hidden block mr-4">
             <Hamburger toggled={showNav} toggle={toggleNav} />
           </div>
@@ -69,6 +70,8 @@ const Navbar = () => {
             />{" "}
             <span className="border-b border-b-amber-300">Pura Vida</span>
           </div>
+          </div>
+
           <ul className="hidden sm:flex">
             {NavLinks.map((link) => (
               <li
@@ -79,9 +82,9 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className="hidden gap-2 sm:flex">
-            <span className="border-b border-b-amber-400">0123456789</span>
-            <FaPhoneAlt className="text-amber-400 translate-y-[3px]" />
+          <div className="gap-2 hidden xs:flex">
+            <span className="border-b border-b-amber-400 text-xs  sm:text-[1rem]">0123456789</span>
+            <FaPhoneAlt className="text-amber-400 text-xs sm:text-[1rem]" />
           </div>
         </div>
       </nav>
