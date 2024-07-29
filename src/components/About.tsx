@@ -4,7 +4,7 @@ import Image from "next/image";
 import AboutImg from "./../../public/about img 2.jpg";
 const About = () => {
   return (
-    <div className="relative max-w-[1260px] flex flex-col lg:flex-row items-center justify-center mx-auto  p-3 xs:p-6 md:p-12">
+    <div className="relative max-w-[1260px] flex flex-col lg:flex-row items-center justify-center mx-auto  p-3 sm:p-6 md:p-12">
       {/* Text Box */}
       <div className="relative z-10 mt-4 xs:mt-0 p-[7.5%] xs:p-[15%] lg:p-[5rem] bg-white shadow-xl flex-1 lg:mr-6 flex items-center lg:order-1 order-2 min-h-[calc(100%-20px)]">
         <div className="flex flex-col gap-8">

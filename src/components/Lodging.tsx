@@ -15,7 +15,7 @@ const Lodging = () => {
       }}
     >
       <div className="absolute inset-0 bg-yellow-500 opacity-30"></div>
-      <div className="max-w-[1260px] px-[5%] mx-auto py-[6rem]">
+      <div className="max-w-[1260px] px-[2%] sm:px-[5%] mx-auto py-[6rem]">
         <div className="mb-[4rem]">
           <div className="flex gap-2">
             <h2 className="text-xl uppercase font-bold mb-4">Room type</h2>
@@ -35,7 +35,7 @@ const Lodging = () => {
             Inspired Lodging{" "}
           </h3>
         </div>
-        <div className="grid grid-cols-2 grid-rows-2 gap-5">
+        <div className="grid grid-cols-2 grid-rows-2 gap-2 sm:gap-5">
           <div className="w-full h-full  relative group">
             <a
               href="https://www.instagram.com/p/C9uHjv7I1vf/?img_index=1"
