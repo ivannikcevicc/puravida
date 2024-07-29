@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Header from "@/components/Header";
+import Lodging from "@/components/Lodging";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <About />
+      <Lodging/>
     </main>
   );
 }

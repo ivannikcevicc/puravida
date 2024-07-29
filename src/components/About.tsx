@@ -22,7 +22,7 @@ const About = () => {
             </figure>
           </div>
 
-          <h3 className=" text-2xl xs:text-4xl ">
+          <h3 className=" text-2xl xs:text-[2.5rem] font-custom">
             To the magical place in Palm Beach{" "}
           </h3>
           <p className="text-md xs:text-lg ">
