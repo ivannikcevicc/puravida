@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Events from "@/components/Events";
 import Header from "@/components/Header";
 import Lodging from "@/components/Lodging";
 import Navbar from "@/components/Navbar";
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <About />
       <Lodging/>
+      <Events/>
     </main>
   );
 }

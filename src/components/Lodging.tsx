@@ -7,7 +7,7 @@ import Image4 from "./../../public/header img 3.jpg";
 const Lodging = () => {
   return (
     <div
-      className="relative"
+      className="relative pb-[10rem] z-[-1]"
       style={{
         backgroundImage: `url(https://live.templateelementor.com/palmbeach/wp-content/uploads/sites/23/2021/08/inspired-lodging-bg.jpg)`,
         backgroundSize: "cover",
