@@ -21,6 +21,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
 import { motion } from "framer-motion";
+import { IoLocationOutline } from "react-icons/io5";
 const Header = () => {
   const [slideDirection, setSlideDirection] = useState("left");
   const [key, setKey] = useState(0); // Key to force re-render
@@ -90,6 +91,7 @@ const Header = () => {
             text1: "Pura Vida",
             text2: "beach longue",
             text3: "Drobni pijesak",
+            icon: <IoLocationOutline size={30} className="justify-self-end self-end translate-y-[-0.4rem] mr-1 text-amber-500"/>,
           },
           {
             image: Image2,
@@ -136,11 +138,11 @@ const Header = () => {
                   {item.text2}
                 </motion.p>
                 <motion.h3
-                  className="text-[2rem] xs:text-[3rem] sm:text-[4rem] mb-4 leading-[2.5rem] xs:leading-[3.5rem]"
+                  className="text-[2rem] xs:text-[3rem] sm:text-[4rem] mb-4 leading-[2.5rem] flex xs:leading-[3.5rem]"
                   variants={textVariants}
                   custom={slideDirection}
                 >
-                  {item.text3}
+                  {item.icon} {item.text3} 
                 </motion.h3>
                 <button className="relative border-2 mt-4 border-white transition-all duration-300 ease-out hover:border-amber-500 bg-transparent text-white py-3 px-6 overflow-hidden group">
                   <span className="relative z-10">Learn More</span>
