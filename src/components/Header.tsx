@@ -91,7 +91,7 @@ const Header = () => {
             text1: "Pura Vida",
             text2: "beach longue",
             text3: "Drobni pijesak",
-            icon: <IoLocationOutline size={30} className="justify-self-end self-end translate-y-[-0.4rem] mr-1 text-amber-500"/>,
+            icon: <IoLocationOutline size={30} className="justify-self-end self-end translate-y-[-0.5rem] sm:translate-y-[-0.4rem] mr-1 text-amber-500"/>,
           },
           {
             image: Image2,

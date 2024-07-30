@@ -14,7 +14,7 @@ const Events = () => {
     >
       <div className="min-h-[400px]   text-white max-w-[1260px] px-[2%] sm:px-[5%] mx-auto pt-[6rem]">
         <div className="mb-[4rem] text-center pt-[5rem]">
-          <h2 className="text-xl uppercase font-bold mb-4">
+          <h2 className="text-xl uppercase font-bold mb-4 mt-[4rem]">
             Awards - the guardian
           </h2>
 
