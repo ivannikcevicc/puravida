@@ -23,9 +23,9 @@ const Events = () => {
           </h3>
           <p className="font-light text-xs xs:text-sm max-w-[800px]  px-[2%] sm:px-[5%] mx-auto leading-6 xs:leading-7 mb-6">
             On August 30, 2022, Drobni Pijesak Beach in Budvanska Rivijera,
-            Montenegro, was honored as one of Europe's top 40 beaches, a
+            Montenegro, was honored as one of Europe&apos;s top 40 beaches, a
             testament to its exceptional charm and allure. This recognition
-            highlights the beach's appeal to travelers seeking extraordinary
+            highlights the beaches appeal to travelers seeking extraordinary
             coastal destinations.
           </p>
           <button className="relative border-2 mt-4 border-white transition-all duration-300 ease-out hover:border-amber-500 hover:text-white bg-transparent text-white py-3 px-12 overflow-hidden group">
@@ -36,7 +36,7 @@ const Events = () => {
           </button>
           <p className="font-semibold text-md xs:text-lg max-w-[800px] mt-8  px-[2%] sm:px-[5%] mx-auto mb-6">
             <a href="https://montebooking.me/news/beach-drobni-pjesak-on-the-guardians-list-of-the-best-beaches-in-europe" target='_blank' className='text-blue-500 border-b-2 border-transparent hover:border-blue-600 transition-all pb-[.1rem] '>
-            Beach Drobni pjesak on the Guardian's list of the best beaches in Europe
+            Beach Drobni pjesak on the Guardian&apos;s list of the best beaches in Europe
             </a>
           </p>
         </div>
@@ -70,7 +70,7 @@ const Events = () => {
             </h3>
             <p className="font-light text-xs xs:text-sm max-w-[800px] leading-6 xs:leading-7 mb-6">
               Nestled in a picturesque setting, Drobni Pijesak Beach embodies
-              the essence of "Pura Vida" with its pristine sands and
+              the essence of &quot;Pura Vida&quot; with its pristine sands and
               crystal-clear waters. The hidden gem offers a serene escape framed
               by dramatic cliffs and lush greenery. Its tranquil ambiance,
               coupled with natural beauty and an idyllic setting, makes it a

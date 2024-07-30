@@ -24,7 +24,7 @@ import { motion } from "framer-motion";
 import { IoLocationOutline } from "react-icons/io5";
 const Header = () => {
   const [slideDirection, setSlideDirection] = useState("left");
-  const [key, setKey] = useState(0); // Key to force re-render
+  const [key, setKey] = useState(0);
 
   const handleSlideChange = (swiper) => {
     if (swiper.activeIndex > swiper.previousIndex) {
