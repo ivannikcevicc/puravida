@@ -83,7 +83,7 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="gap-2 hidden xs:flex">
-            <span className="border-b border-b-amber-400 text-xs  sm:text-[1rem]">0123456789</span>
+            <span className="border-b border-b-amber-400 text-xs  sm:text-[1rem]">+382 68 26 25 25</span>
             <FaPhoneAlt className="text-amber-400 text-xs sm:text-[1rem]" />
           </div>
         </div>
