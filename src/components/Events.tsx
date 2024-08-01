@@ -4,8 +4,9 @@ import Image1 from "./../../public/events img.png"
 import Image from "next/image";
 const Events = () => {
   return (
+    <div style={{backgroundImage: "linear-gradient(to bottom, rgba(52, 189, 209, 0) 50%, rgba(52, 189, 209, 1) 50%)" }} className='pb-[4rem]'>
     <div
-      className=" mt-[-140px] z-[1] "
+      className=" mt-[-140px] z-[1] pb-[2rem]"
       style={{
         backgroundImage: `url(${BgImage.src})`,
         backgroundSize: "cover",
@@ -41,7 +42,7 @@ const Events = () => {
           </p>
         </div>
       </div>
-      <div className="pt-10 px-[5%] mx-auto gap-[2rem] md:gap-4 max-w-[1260px] flex md:flex-row flex-col justify-center pb-[12rem] md:pb-[6rem]">
+      <div className="pt-10 px-[5%] mx-auto gap-[2rem] md:gap-4 max-w-[1260px] flex md:flex-row flex-col justify-center pb-[12rem]">
         <div className="w-full md:w-[40%] flex flex-col justify-center items-center">
           <Image
             src={Image1}
@@ -80,6 +81,7 @@ const Events = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

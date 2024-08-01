@@ -11,8 +11,8 @@ const Services = () => {
   return (
     <div className="bg-section mb-[6rem]">
       <div
-        className="bg-cover bg-center pb-[90%] xs:pb-[60%]  sm:pb-[45%] md:pb-[40%] lg:pb-[25%]  xl:pb-[15%] bg-no-repeat opacity-70"
-        style={{ backgroundImage: `url("${BgImage.src}")` }}
+        className="bg-cover bg-center pb-[90%] xs:pb-[60%]  sm:pb-[45%] md:pb-[40%] lg:pb-[25%]  xl:pb-[15%] bg-no-repeat "
+        style={{ backgroundImage: `url("https://playa.ancorathemes.com/wp-content/uploads/2017/06/blue_bg2.jpg?id=498")` }}
       >
         <div className="flex flex-col  pt-[6rem]">
           <div className="flex flex-col gap-2 mt-[4rem]  md:mt-[5rem] mb-[6rem]  md:mb-[8rem] text-center mx-auto max-w-[90%] sm:max-w-[85%]">
