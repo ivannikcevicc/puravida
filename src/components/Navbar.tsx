@@ -13,11 +13,11 @@ export const NavLinks = [
   },
   {
     label: "About",
-    href: "/",
+    href: "/about",
   },
   {
     label: "Contact",
-    href: "/",
+    href: "/contact",
   },
   {
     label: "Gallery",
