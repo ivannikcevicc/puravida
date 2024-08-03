@@ -61,7 +61,7 @@ const Testimonials = () => {
             <SwiperSlide key={index} className="relative overflow-hidden">
               <div className="flex text-white justify-center items-center text-center max-w-[900px] pb-[5rem] mx-auto px-[2%] gap-6 sm:px-[5%] flex-col">
                 <div className="text-[120px] font-extrabold leading-[.75] mb-[-4rem] uppercase ">
-                  "
+                &quot;
                 </div>
                 <p className="text-md sm:text-lg">
                   {item.text}
