@@ -5,12 +5,13 @@ import "./heading-page.modules.scss";
 import { useRouter } from "next/navigation";
 interface Props {
   title: string;
+  bg: string;
 }
 
-const HeadingPage = ({ title }: Props) => {
+const HeadingPage = ({ title, bg }: Props) => {
   const router = useRouter();
   return (
-    <div className="blog-grid-header w-full">
+    <div className="blog-grid-header w-full mb-[8rem]" style={{ backgroundImage: `url(${bg})`, backgroundSize: "cover", backgroundPosition: "center" }}>
       <div className="blog-grid-header-text">
         <h3 className="blog-grid-header-text-main ">{title}</h3>
         <div className="blog-grid-header-text-nav">

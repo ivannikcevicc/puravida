@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["live.templateelementor.com"],
+    domains: ["live.templateelementor.com", "playa.ancorathemes.com"],
   },
 };
 

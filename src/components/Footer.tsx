@@ -4,7 +4,7 @@ import logo from "./../../public/logo.jpg"
 
 const Footer = () => {
   return (
-    <div className="flex gap-3 flex-col justify-center items-center text-center">
+    <div className="flex mt-[8rem] gap-3 flex-col justify-center items-center text-center">
       <Image
         src={logo}
         alt="Pura vida logo"
