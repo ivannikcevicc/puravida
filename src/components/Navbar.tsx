@@ -145,12 +145,15 @@ const Navbar = () => {
                     className="relative group px-2 py-4 overflow-hidden"
                     variants={itemVariants}
                   >
+                    <button onClick={() => setShowNav(false)}>
                     <Link
                       href={link.href}
                       className="relative z-10 transition-colors duration-300 group-hover:text-white"
                     >
                       {link.label}
                     </Link>
+                    </button>
+
                     <div className="absolute inset-0 bg-amber-400 transform translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300"></div>
                   </motion.li>
                 ))}
