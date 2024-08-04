@@ -18,7 +18,7 @@ const Testimonials = () => {
   return (
     <div className="bg-section">
       <div
-        className="bg-cover bg-center pb-[7rem] bg-no-repeat "
+        className="bg-cover bg-center pb-[7rem] bg-no-repeat mb-[6rem] "
         style={{
           backgroundImage: `url("https://playa.ancorathemes.com/wp-content/uploads/2017/06/bg-24.jpg?id=472")`,
         }}
