@@ -7,7 +7,7 @@ const About = ({inverted, subheading, heading, text, buttonText, buttonLink, ima
   return (
     <div className={`relative max-w-[1260px] flex flex-col md:flex-row items-center justify-center mx-auto p-3 sm:p-6 md:p-12`}>
       {/* Text Box */}
-      <div className={`relative  mt-4 xs:mt-0 p-[5%] xs:p-[7.5%] sm:p-[10%] md:p-[3rem] bg-white shadow-xl flex-1  flex items-center min-h-[calc(100%-20px)] order-2 ${inverted ? " md:ml-[-1.5rem] md:mr-6 z-[-1]" : "md:order-1  md:mr-[-1.5rem] z-10"}`}>
+      <div className={`relative pt-[3rem]  p-[5%] xs:p-[7.5%] sm:p-[10%] md:p-[3rem] bg-white shadow-xl flex-1  flex items-center min-h-[calc(100%-20px)] order-2 ${inverted ? " md:ml-[-1.5rem] md:mr-6 z-[-1]" : "md:order-1  md:mr-[-1.5rem] z-10"}`}>
         <div className="flex flex-col gap-8">
           <div className="flex gap-2">
             <h2 className="text-xl uppercase font-bold mb-2">{subheading}</h2>
@@ -40,7 +40,7 @@ const About = ({inverted, subheading, heading, text, buttonText, buttonLink, ima
 
       {/* Image */}
       <div className={`relative overflow-hidden md:overflow-visible mt-6 md:mt-0 w-full md:w-1/2 order-1 ${inverted ? " z-[-1]" : "md:order-2"}`}>
-        <div className="relative h-0 pb-[177.78%]"> {/* This is to maintain the 9:16 aspect ratio */}
+        <div className="relative h-0 pb-[107.78%] md:pb-[177.78%] lg:pb-[107.78%]"> {/* This is to maintain the 9:16 aspect ratio */}
           <Image
             src={image}
             alt="Example Image"

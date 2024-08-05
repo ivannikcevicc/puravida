@@ -17,11 +17,11 @@ export const NavLinks = [
   },
   {
     label: "Contact",
-    href: "/contact",
+    href: "https://www.instagram.com/pura_vida_beach/",
   },
   {
     label: "Gallery",
-    href: "/",
+    href: "/gallery",
   },
 ];
 
